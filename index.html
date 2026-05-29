@@ -20,27 +20,6 @@
     />
 
     <style>
-      /* .design-overlay { */
-      /*   position: fixed; */
-      /*   top: 0; */
-      /*   left: 0; */
-      /*   width: 100vw; */
-      /*   height: 100vh; */
-      /**/
-      /*   background-image: url("design/mobile-design.jpg"); */
-      /*   background-size: contain; */
-      /*   background-position: center top; */
-      /**/
-      /*   opacity: 0.5; */
-      /*   z-index: 9999; */
-      /**/
-      /*   pointer-events: none; */
-      /* } */
-      /**/
-      /* * { */
-      /*   outline: 1px solid red !important; */
-      /* } */
-
       @font-face {
         font-family: "Inter";
         src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf")
@@ -102,7 +81,6 @@
       .card {
         background-color: var(--grey-800);
         width: 385px;
-        /* height: 615px; */
         border-radius: 13px;
         display: flex;
         flex-direction: column;
@@ -161,22 +139,43 @@
 
     <div class="card">
       <div class="bio">
-        <img src="assets/images/avatar-jessica.jpeg" alt="Profile picture" />
+        <img
+          src="https://ui-avatars.com/api/?name=Kimatsar"
+          alt="Profile picture"
+        />
 
         <div class="name-location">
-          <h1>Jessica Randall</h1>
-          <figcaption>London, United Kingdom</figcaption>
+          <h1>Kimatsar</h1>
+          <figcaption>Earth</figcaption>
         </div>
 
-        <p>"Front-end developer and avid reader."</p>
+        <p>"Full-stack developer"</p>
       </div>
 
       <div class="links">
-        <button>GitHub</button>
-        <button>Frontend Mentor</button>
-        <button>LinkedIn</button>
-        <button>Twitter</button>
-        <button>Instagram</button>
+        <button onclick="document.location = 'https://github.com/kimatsar'">
+          GitHub
+        </button>
+        <button
+          onclick="
+            document.location = 'https://www.frontendmentor.io/profile/kimatsar'
+          "
+        >
+          Frontend Mentor
+        </button>
+        <button
+          onclick="
+            document.location = 'https://discord.com/users/1508073415116849293'
+          "
+        >
+          Discord
+        </button>
+        <button onclick="document.location = 'https://x.com/kimatsar'">
+          Twitter/X
+        </button>
+        <button onclick="document.location = 'https://github.com/kimatsar'">
+          GitHub
+        </button>
       </div>
     </div>
 
@@ -187,4 +186,3 @@
     <!-- </footer> -->
   </body>
 </html>
-
